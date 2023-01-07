@@ -37,6 +37,34 @@ button {
     justify-content: flex-end;
 }
 
+/* achievements section */
+.achievements_section{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.achievements_section h1{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+}
+.achievements{
+    /* margin: 100px; */
+    display: flex;
+}
+.achievement{
+    width: 250px;
+    margin-right: 50px;
+    box-shadow: 1px 2px 5px blue;
+}
+.achievement img{
+    width: 100%;
+}
+.achievement h3{
+    text-align: center;
+}
+
 
 /* failure_section */
 .failure_section {
